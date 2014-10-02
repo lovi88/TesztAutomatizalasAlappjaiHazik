@@ -1,0 +1,18 @@
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\StringCalculatorTests.dll
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\StringCalculatorTests.pdb
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\nunit.framework.dll
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\StringCalculator.dll
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\StringCalculator.pdb
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\bin\Debug\nunit.framework.xml
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\obj\Debug\StringCalculatorTests.csprojResolveAssemblyReference.cache
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\obj\Debug\StringCalculatorTests.dll
+C:\Users\lovi88\documents\visual studio 2013\Projects\StringCalculator\StringCalculatorTests\obj\Debug\StringCalculatorTests.pdb
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\StringCalculatorTests.dll
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\StringCalculatorTests.pdb
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\nunit.framework.dll
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\StringCalculator.dll
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\StringCalculator.pdb
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\bin\Debug\nunit.framework.xml
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\obj\Debug\StringCalculatorTests.csprojResolveAssemblyReference.cache
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\obj\Debug\StringCalculatorTests.dll
+G:\AA_NIK\7. FÉLÉV\Tesztautomatizálás alapjai\Hét 1\Házi 1\StringCalculator_Lovas_István\StringCalculatorTests\obj\Debug\StringCalculatorTests.pdb
