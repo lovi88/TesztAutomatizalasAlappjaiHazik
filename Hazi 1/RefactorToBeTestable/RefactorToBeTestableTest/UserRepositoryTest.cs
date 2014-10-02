@@ -24,6 +24,9 @@ namespace RefactorToBeTestableTest
         IQueryable<User> usersQ;
         List<User> usersL;
 
+        User newUser;
+        User oldUser;
+
         [TestFixtureSetUp]
         public void TestFixtureSetUp()
         {
@@ -40,8 +43,9 @@ namespace RefactorToBeTestableTest
         [Test]
         public void Test_Create_Should_CreateANewUserInContext_When_EverithingIsAwsome()
         {
+
             // Act
-            uRepo.Create(usersL[0]);
+            uRepo.Create(newUser);
             // Assert
             mockSet.Verify(m => m.Add(It.IsAny<User>()), Times.Once);
             mockContext.Verify(m => m.SaveChanges(), Times.Once);
@@ -49,12 +53,26 @@ namespace RefactorToBeTestableTest
 
         [Test]
         [ExpectedException(
-            ExpectedException = typeof(ArgumentException), 
+            ExpectedException = typeof(ArgumentException),
             ExpectedMessage = "The given email address is already used by another customer")
         ]
-        public void Test_Create_Should_ThrowArgumentException_When_TheGivenUserIsAlredyExists()
+        public void Test_Create_Moked_Should_ThrowArgumentException_When_TheGivenUserIsAlredyExists()
         {
-            //nem dobott kivételt, nem is menti el a mock az elsőt, ezért saját faket használtam...
+            //Itt most a moq-t használtam
+
+            // Act
+            uRepo.Create(oldUser);
+
+        }
+
+        [Test]
+        [ExpectedException(
+            ExpectedException = typeof(ArgumentException),
+            ExpectedMessage = "The given email address is already used by another customer")
+        ]
+        public void Test_Create_Faked_Should_ThrowArgumentException_When_TheGivenUserIsAlredyExists()
+        {
+            //Itt most egy saját faket használtam
 
             //Arrange
             uRepo = new UserRepository(new FakeShopContext());
@@ -63,7 +81,6 @@ namespace RefactorToBeTestableTest
             uRepo.Create(usersL[0]);
             uRepo.Create(usersL[0]);
         }
-
 
 
         void Arrange()
@@ -83,14 +100,18 @@ namespace RefactorToBeTestableTest
 
 
 
-        void InitTestData() { 
-         usersQ = new List<User>
+        void InitTestData()
+        {
+            usersQ = new List<User>
             { 
                 new User() { Name = "Pista", Email = "lovasistvan@outlook.com" }
             }.AsQueryable();
 
 
-         usersL = usersQ.ToList();
+            newUser = new User() { Name = "Pityu", Email = "lovas_istvan@outlook.com" };
+            oldUser = new User() { Name = "Pista", Email = "lovasistvan@outlook.com" };
+
+            usersL = usersQ.ToList();
         }
     }
 }
