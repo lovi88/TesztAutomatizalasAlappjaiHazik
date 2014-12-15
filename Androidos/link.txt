@@ -1,0 +1,3 @@
+How to setup a test environment for Android using Robotium
+
+http://adventuresinqa.com/2011/10/29/how-to-setup-a-test-environment-for-android-using-robotium/

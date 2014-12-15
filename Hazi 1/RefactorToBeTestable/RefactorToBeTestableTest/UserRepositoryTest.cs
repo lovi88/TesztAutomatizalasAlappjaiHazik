@@ -27,6 +27,7 @@ namespace RefactorToBeTestableTest
         User newUser;
         User oldUser;
 
+
         [TestFixtureSetUp]
         public void TestFixtureSetUp()
         {
@@ -106,7 +107,7 @@ namespace RefactorToBeTestableTest
             { 
                 new User() { Name = "Pista", Email = "lovasistvan@outlook.com" }
             }.AsQueryable();
-
+            
 
             newUser = new User() { Name = "Pityu", Email = "lovas_istvan@outlook.com" };
             oldUser = new User() { Name = "Pista", Email = "lovasistvan@outlook.com" };

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1033]C:\Users\Sys\Desktop\TestProejct\TestProejct\bin\Debug\TestProject.dll</TopNode>
+  <SelectedNode>[0-1029]TestProject.WebdriverWaitTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1033]C:\Users\Sys\Desktop\TestProejct\TestProejct\bin\Debug\TestProject.dll" Expanded="true" />
+    <Node UniqueName="[0-1034]TestProject" Expanded="true" />
+    <Node UniqueName="[0-1005]TestProject.ClickTest" Expanded="true" />
+    <Node UniqueName="[0-1008]TestProject.ClickTestAtClass" Expanded="true" />
+    <Node UniqueName="[0-1015]TestProject.ListBoxCheckBoxTest" Expanded="true" />
+    <Node UniqueName="[0-1017]TestProject.ListBoxCheckBoxTestAtClass" Expanded="true" />
+    <Node UniqueName="[0-1001]TestProject.NavigationTest" Expanded="true" />
+    <Node UniqueName="[0-1003]TestProject.NavigationTestAtClass" Expanded="true" />
+    <Node UniqueName="[0-1011]TestProject.TypingTest" Expanded="true" />
+    <Node UniqueName="[0-1013]TestProject.TypingTestAtClass" Expanded="true" />
+    <Node UniqueName="[0-1029]TestProject.WebdriverWaitTest" Expanded="true" />
+    <Node UniqueName="[0-1019]TestProject.WebdriverWaitTestAtClass" Expanded="true" />
+    <Node UniqueName="[0-1023]TestProject.WebdriverWindowTest" Expanded="true" />
+    <Node UniqueName="[0-1026]TestProject.WebdriverWindowTestAtClass" Expanded="true" />
+  </Nodes>
+</VisualState>
